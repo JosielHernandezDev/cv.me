@@ -5,7 +5,7 @@ class head extends Component {
     render() {
         return (
             <Head>
-                <title>{'Carlos Josiel Hernandez Sanchez'}</title>
+                <title>{'Josiel Hernandez - CV'}</title>
                 <meta name="title" content={'Carlos Josiel Hernandez Sanchez'} />
                 <meta name="description" content={'CV ME'} />
                 <meta property="og:title" content={'Carlos Josiel Hernandez Sanchez'} />

@@ -125,7 +125,7 @@ export default function home() {
                                 {
                                     skills['data'].map((value, i) => {
                                         return (
-                                            <Grid item xs={4} sm={4} key={i}>
+                                            <Grid item xs={6} sm={4} key={i}>
                                                 <h3 className={styles.title_black}>{`${value['name']}`}</h3>
                                                 <div>
                                                     <BorderLinearProgress variant="determinate" value={value['percentage']} />

@@ -1,0 +1,20 @@
+.container_img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 150px;
+  border: 3px solid #1da38f;
+  -webkit-box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.72);
+  box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.72);
+  background-repeat: no-repeat;
+  background-image: url(/img/profile.jpg);
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.img_profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+}

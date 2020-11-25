@@ -1,0 +1,24 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  /* background: orange;  */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1da38f; /* color of the scroll thumb */
+  border-radius: 12px; /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  */
+}
+
+@media (max-width: 780px) {
+  body {
+    overflow: hidden;
+    margin: 0;
+  }
+}

@@ -12,6 +12,8 @@ const Meta = () => (
         <link rel="apple-touch-icon" href="/icons/icon.png" />
         <meta name="apple-mobile-web-app-title" content="Carlos Josiel Hernandez Sanchez" />
         <meta name="mobile-web-app-capable" content="yes" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </Head>
 );
 

@@ -1,0 +1,64 @@
+.container_left {
+  margin: auto;
+  padding-top: 50px !important;
+}
+.container_label {
+  padding-top: 10px;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.name_label {
+  color: #1da38f;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin: 0.5em 0px 0px;
+}
+.description_label {
+  color: rgb(117, 117, 117);
+  font-size: 1em;
+  font-weight: 300;
+}
+.title_black {
+  color: rgb(33, 33, 33);
+  font-weight: 400;
+  margin: 0.5em 0px;
+}
+
+.country_label {
+  color: rgb(117, 117, 117);
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.container_right {
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.ej {
+  max-height: 400px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+.container_social_media {
+  text-align: center;
+  padding: 15px 30px 0 30px;
+}
+.container_social_media .solcial_icon {
+  padding: 0 4px;
+}
+.solcial_icon img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 780px){
+ .container_right {
+    /* max-height: 100vh; */
+    overflow: hidden;
+  }
+  
+}

@@ -49,9 +49,9 @@ export default function home() {
 
 
     return (
-        <div >
+        <div className={styles.containerapp} >
             <Grid container spacing={2}>
-                <Grid item xs={12} sm={3} className={styles.container_left}>
+                <Grid item xs={12} md={3} sm={12} className={styles.container_left}>
                     <ImageProfile></ImageProfile>
                     <div className={styles.container_label}>
                         <h2 className={styles.name_label}>Carlos Josiel Hernández Sánchez</h2>
@@ -60,15 +60,14 @@ export default function home() {
                         <p className={styles.name_label}>FrontEnd Developer</p>
                     </div>
                     <div className={styles.container_label}>
-                        <p className={styles.description_label}> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className={styles.description_label}>
+                            Egresado del Instituto Tecnologico Superior de San Pedro, cuando con experiencia programando aplicaciones web con diferentes librerias y frameworks de JavaScript, tambien tengo experiencia en  HTML5,CSS3, SASS, Bootstrap y Material IU.
+                        </p>
                     </div>
                     <div className={styles.container_label}>
                         <strong className={styles.country_label}>Monterrey, NL.</strong>
                     </div>
                     <div className={styles.container_social_media}>
-                        <a className={styles.solcial_icon} href={'https://www.facebook.com/josiel.ehrnandez/'} target="_blank">
-                            <img src={'img/socialmedia/facebook.png'} />
-                        </a>
                         <a className={styles.solcial_icon} href={'https://github.com/JosielHernandezDev/'} target="_blank">
                             <img src={'img/socialmedia/github.png'} />
                         </a>
@@ -80,7 +79,7 @@ export default function home() {
                         </a>
                     </div>
                 </Grid>
-                <Grid item xs={12} sm={9} className={styles.container_right}>
+                <Grid item xs={12} md={9} sm={12} className={styles.container_right}>
                     {
 
                         data['isVisible'] &&
@@ -126,7 +125,7 @@ export default function home() {
                                 {
                                     skills['data'].map((value, i) => {
                                         return (
-                                            <Grid item xs={4} sm={4} key={i}>
+                                            <Grid item xs={6} sm={4} key={i}>
                                                 <h3 className={styles.title_black}>{`${value['name']}`}</h3>
                                                 <div>
                                                     <BorderLinearProgress variant="determinate" value={value['percentage']} />

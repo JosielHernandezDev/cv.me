@@ -67,13 +67,13 @@ export const DATA = {
             },
             {
                 "id": 2,
-                "name": "React",
-                "percentage": 90
+                "name": "React JS",
+                "percentage": 100
             },
             {
                 "id": 3,
                 "name": "Angular 2+",
-                "percentage": 90
+                "percentage": 100
             },
             {
                 "id": 4,
@@ -94,6 +94,16 @@ export const DATA = {
                 "id": 7,
                 "name": "Next JS",
                 "percentage": 90
+            },
+            {
+                "id": 8,
+                "name": "Bootstrap",
+                "percentage": 99
+            },
+            {
+                "id": 9,
+                "name": "GitFlow",
+                "percentage": 95
             }
         ]
     }

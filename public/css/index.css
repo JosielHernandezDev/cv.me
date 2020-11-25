@@ -15,3 +15,10 @@ body {
   border-radius: 12px; /* roundness of the scroll thumb */
   /* border: 3px solid orange;  */
 }
+
+@media (max-width: 780px) {
+  body {
+    overflow: hidden;
+    margin: 0;
+  }
+}
